@@ -8,18 +8,6 @@ body {
 	background: #f1e9dc;
 }
 
-.cabecera {
-	color: black !important;
-	text-align: center !important;
-	font-weight: bold !important;
-	background-color: #f5af74 !important;
-	background: url(../img/sl-3.jpg) no-repeat;
-    background-size: cover;
-    text-align: center;
-    width: 100%;
-    min-height: 20px;
-    padding: 50px;
-}
 
 .pantalla {
 	margin-left : 80px;
@@ -141,31 +129,3 @@ naver li ul li {
         position:relative;
       }
       
-
-
-
-/*****************ENCUESTA************************/
-
-.info {
-  margin: 5px;
-}
-
-.info tbody tr td {
-  height: 45px;
-}
-
-.info tbody tr td input{
-  width: 300px;
-}
-
-.info tbody tr td select{
-  width: 300px;
-  height:25px;
-}
-
-.btn{
-  background-color: #000000;
-  color: white;
-  height: 45px;
-  border-radius: 15px;
-}

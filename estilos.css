@@ -1,0 +1,171 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+	color: #555;
+	background: #f1e9dc;
+}
+
+.cabecera {
+	color: black !important;
+	text-align: center !important;
+	font-weight: bold !important;
+	background-color: #f5af74 !important;
+	background: url(../img/sl-3.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    min-height: 20px;
+    padding: 50px;
+}
+
+.pantalla {
+	margin-left : 80px;
+	margin-right : 80px;
+}
+
+/*
+.panel {
+	position: absolute;
+	background:BLACK; 
+	height:100%; 
+	display: none;
+7	color: white;
+}
+*/
+iframe {
+	margin: :20px !important;
+}
+
+
+a:link {
+   color:white;
+}
+
+a:hover {
+	color:RED;        
+}
+
+a:visited {
+    color:WHITE;
+}
+
+a:active {
+     color:white;
+}
+
+p {
+    font-size:20px;
+    text-align: justify;
+    color: black;
+}
+
+/******************MENU********************/
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+/*
+li.panel{
+  float: left;
+}
+
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+naver {
+
+  margin:0 auto; 
+}
+
+naver li a:hover {
+  background-color: #111111;
+}
+
+ li:hover > ul {
+  display:block;
+}
+
+naver li ul li {
+  position:relative;
+}
+*/
+
+      * {
+        margin:0px;
+        padding:0px;
+      }
+          
+      ul, ol {
+        list-style:none;
+      }
+      
+      .nav > li {
+        float:left; 
+      }
+      
+      .nav li a {
+        background-color:#000;
+        color:#fff;
+        text-decoration:none;
+        padding:10px 12px;
+        display:block;
+      }
+      
+      .nav li a:hover {
+        background-color:#434343;
+      }
+      
+      .nav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+      }
+      
+      .nav li:hover > ul {
+        display:block;
+      }
+      
+      .nav li ul li {
+        position:relative;
+      }
+      
+
+
+
+/*****************ENCUESTA************************/
+
+.info {
+  margin: 5px;
+}
+
+.info tbody tr td {
+  height: 45px;
+}
+
+.info tbody tr td input{
+  width: 300px;
+}
+
+.info tbody tr td select{
+  width: 300px;
+  height:25px;
+}
+
+.btn{
+  background-color: #000000;
+  color: white;
+  height: 45px;
+  border-radius: 15px;
+}
